@@ -4,12 +4,12 @@ Image Gallery is a gallery application built with React and Redux. It allows use
 Installation
 Clone the repository:
 
-bash
+
 Copy code
 git clone https://github.com/liorshlomo/image-gallery.git
 Navigate to the client folder:
 
-bash
+
 Copy code
 cd image-gallery/client
 Install dependencies:
@@ -23,7 +23,7 @@ Copy code
 npm start
 Open a new terminal window/tab, navigate to the server folder:
 
-bash
+
 Copy code
 cd ../server
 Install server dependencies:
@@ -51,7 +51,7 @@ Use the pagination buttons to navigate between pages of images.
 To change the search category, click the "Change Category" button.
 
 Folder Structure
-rrclient: Contains the client-side code of the MSApp Redux application.
+client: Contains the client-side code of the MSApp Redux application.
 
 index.js: Entry point of the client application.
 app.js: Main component rendering the gallery.
